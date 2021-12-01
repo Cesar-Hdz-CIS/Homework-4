@@ -16,4 +16,4 @@ if __name__ == "__main__": #print out if age is valid or not valid with message
         print("Fat burning heart rate for a", Age, "year-old:", fat_burning_heart_rate(Age), "bpm")
     except ValueError as e:
         print(e)
-        print("Could not calculate heart rate info.")
+        print("Could not calculate heart rate info.\n")
